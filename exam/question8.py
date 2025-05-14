@@ -6,3 +6,5 @@ def read_products(db_name):
     rows = cursor.fetchall()
     conn.close
     return rows
+
+    
